@@ -9,7 +9,7 @@ README
 ### Use poetry to manage project, check poetry for usage details
 ```
 poetry env use 3.11
-poetry install --sync
+poetry install --sync --no-root
 ```
 
 ### Start/Stop develop environment
