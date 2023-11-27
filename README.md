@@ -12,6 +12,10 @@ poetry env use 3.11
 poetry install --sync --no-root
 ```
 
+### Build Image
+```
+make image
+```
 ### Start/Stop develop environment
 ```
 make start_dev

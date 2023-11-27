@@ -12,7 +12,7 @@ start:
 stop:
 	docker-compose -f docker-compose.yml stop
 
-build:
+image:
 	poetry export -f requirements.txt --output requirements.txt
 	docker build -t api-service .
 
